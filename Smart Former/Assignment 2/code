@@ -1,0 +1,12 @@
+#Temperature and Humidity Value Given
+#Manually will assign to this
+#temp and hum variable
+temp=int(input("Enter Temperature Value in Celsius : "))
+hum=int(input("Enter Humidity Value in % : "))
+if(temp>=38):
+#Number of Times to allow for alert the Alarm
+n=int(input("Number of Times to Continue the Alert : "))
+for i in range (n):
+print("Alert !!,Alarm is Detected")
+else :
+print("The Temperature is Moderate")
